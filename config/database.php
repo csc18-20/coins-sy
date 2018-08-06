@@ -71,7 +71,7 @@ return [
         //     'schema' => 'public',
         //     'sslmode' => 'prefer',
         // ],
-        'pgsql' => array(
+        'pgsql' =>[
             'driver'   => 'pgsql',
             'host'     => $host,
             'database' => $database,
@@ -80,7 +80,7 @@ return [
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
-        ),
+        ],
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
